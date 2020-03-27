@@ -78,7 +78,7 @@ function App() {
       <h1 align='center'>Randomizer App</h1>
         <Divider /><br/>
         <h2>{carClass !== '' ? carClass + ' - ' + carType : 'Press the button!!'}</h2>
-        <h2>{carClass !== '' ? numberOfRaces + ' races - ' + eventType : 'Press the button!!'}</h2>
+        <h2>{carClass !== '' ? numberOfRaces + ' races - ' + eventType : ''}</h2>
         <Divider /><br/>
         <Button onClick={randomizeEvent} size='small' variant="contained" color="primary">
           Randomize
